@@ -68,9 +68,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
-
+Closure is used once the function is created.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+The name will always be the same but the number rolled will be different.
 c. What is the lexical scope of `newRoll`?
+newRoll belongs to the return function generating a random number.
 
 ### Task 3 - Stretch Goals
 

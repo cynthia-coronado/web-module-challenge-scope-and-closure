@@ -33,8 +33,8 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
   2. Which of the two uses a closure? How can you tell?
   Counter one because it returns a function. 
 
-  3. In what scenario would the counter1 code be preferable? In what scenario would 
-     counter2 be better?  
+  3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better?  
+  Counter one would be preferable if there are more than a few functions. If there is a problem in the code you will be able to pin point in becuase the private varibale is specific on who can access it. Counter two would be preferable if you only have to access one function over and over again. 
 */
 
 // counter1 code
